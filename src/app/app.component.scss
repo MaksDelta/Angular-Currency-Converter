@@ -1,8 +1,10 @@
 @import "../styles";
 
-$blue: #417de0;
+$green: #046a02;
 $red: #ff5858;
-$bright-blue: #65C7F7;
+$bright-green: #01ab3d;
+$blue-for-card: rgb(62, 64, 161);
+$bright-green-for-card: #009033;
 $brighter-blue:#9CECFB;
 $dirty-white: #EFEFEFFF;
 $brown: #3a3636;
@@ -68,7 +70,7 @@ align-items: center;
   margin: auto;
   padding: 20px;
 
-  background-color: $dirty-white;
+  background: radial-gradient( circle farthest-corner at 12.3% 19.3%, $blue-for-card 0%, $bright-green-for-card 100.2%);
   width: 300px;
   height: auto;
   box-shadow: 0 0 10px 1px rgba(0 0 0 / 20%);
@@ -95,7 +97,7 @@ align-items: center;
     border-radius: 50%;
     outline: 2px solid #d2d2d2;
     &:hover{
-      outline: 2px solid rgb(153, 153, 245);
+      outline: 2px solid rgb(201, 245, 153);
     }
 
 
@@ -169,7 +171,7 @@ align-items: center;
   &:focus-within {
 
       background-color: white;
-      outline: 2px solid rgb(153, 153, 245);
+      outline: 2px solid rgb(201, 245, 153);
 
   }
 }
@@ -191,21 +193,21 @@ align-items: center;
     border-radius: 5px;
     color: white;
     font-weight:500;
-    background-color: $blue;
+    background-color: $green;
 
 
       transition: 0.5s;
 
 
     &:hover{
-      background-color: $bright-blue;
+      background-color: $bright-green;
       transition: 0.5s;
 
-      outline: 2px solid rgb(153, 153, 245);
+      outline: 2px solid rgb(201, 245, 153);
       border: none;
       a, i{
         &.bi{
-          color:  rgb(153, 153, 245);
+          color: $brown;
         }
       }
     }
@@ -267,15 +269,6 @@ align-items: center;
     grid-template-rows: auto [input-row-start] auto;
   }
 
-
-}
-
-.lastUpdate{
-  position: absolute;
-  right: 15px;
-  bottom: 10px;
-  font-weight: 400;
-  color: #3a3636;
 
 }
 
