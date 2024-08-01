@@ -7,7 +7,7 @@
 
 $blue:  rgba(85,88,218,1) ;
 $red: #ff5858;
-$bright-green: #01ab3d; ;
+$bright-green: #378d55; ;
 
 $dirty-white: #EFEFEFFF;
 $brown: #3a3636;
@@ -23,7 +23,7 @@ body, html {
   padding: 0;
   margin: 0;
 
-  background: radial-gradient( circle farthest-corner at 12.3% 19.3%, $blue 0%, $bright-green 100.2%);
+  background: radial-gradient(circle farthest-corner at 12.3% 19.3%, $dirty-white 0%, $bright-green 100.2%);
 
 }
 

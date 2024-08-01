@@ -3,8 +3,8 @@
 $green: #046a02;
 $red: #ff5858;
 $bright-green: #01ab3d;
-$blue-for-card: rgb(62, 64, 161);
-$bright-green-for-card: #009033;
+$bright-green-for-card: #378d55;
+$dirty-white-for-card: #d4dfd7;
 $brighter-blue:#9CECFB;
 $dirty-white: #EFEFEFFF;
 $brown: #3a3636;
@@ -70,10 +70,11 @@ align-items: center;
   margin: auto;
   padding: 20px;
 
-  background: radial-gradient( circle farthest-corner at 12.3% 19.3%, $blue-for-card 0%, $bright-green-for-card 100.2%);
+  background: radial-gradient(circle farthest-corner at 12.3% 19.3%, $dirty-white 0%, $bright-green-for-card 100.2%);
   width: 300px;
   height: auto;
-  box-shadow: 0 0 10px 1px rgba(0 0 0 / 20%);
+  box-shadow: 10px 10px 10px 1px rgba(0 0 0 / 20%);
+  border-style: none;
   border-radius: 15px;
 
   h1{
